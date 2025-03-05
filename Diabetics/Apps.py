@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("Diabetics/diabetes.csv")
 
 # Load Model & Scaler
-with open("diabetes_model.pkl", "rb") as model_file:
+with open("Diabetics/diabetes_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 
