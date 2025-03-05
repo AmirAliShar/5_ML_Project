@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load Dataset
-df = pd.read_csv("diabetes.csv")
+df = pd.read_csv("Diabetics/diabetes.csv")
 
 # Load Model & Scaler
 with open("diabetes_model.pkl", "rb") as model_file:
